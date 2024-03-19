@@ -6,8 +6,8 @@ The included python script scans a list of domains for the presence of a securit
 
 ## Table of Contents
 
-- [Installation](#installation)
 - [Usage](#usage)
+- [Skript Installation](#skript-installation)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -15,12 +15,17 @@ The included python script scans a list of domains for the presence of a securit
 
 Please refer to the data folder for the results of past scans.
 
-To generate your own results [install](#installation) and run the `scan.py` script with the `-f` option to specify a .csv or .txt file containing the domains to check. Use the `-v` option to print the results to the console as well as the output file. Use the `-d` option to specify the directory to save the output file in.
+To generate your own results install and run the `scan.py` script with the `-f` option to specify a .csv or .txt file containing the domains to check. Use the `-d` option to specify the directory to save the output file in (COM, DE, CO.UK, etc.).
 
 Example:
 
 ```bash
-python scan.py -f domains.csv -v -d results
+python scan.py -f domains.csv -d results
+```
+
+```bash
+# --help for further information
+python scan.py --help
 ```
 
 ## Skript Installation
