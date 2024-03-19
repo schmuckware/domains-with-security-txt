@@ -60,7 +60,7 @@ def check_for_security_txt(file, verbose, directory):
 
         # If not found in any of the paths, add to the results
         if not found_or_errored:
-            results.append((domain, 'Not found'))
+            results.append((domain, 'Not found', ''))
             not_found_counter += 1
 
     # Calculate the error counter
