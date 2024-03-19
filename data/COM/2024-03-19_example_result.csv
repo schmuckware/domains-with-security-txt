@@ -1,0 +1,4 @@
+amazon.com,Found,https://www.amazon.com/.well-known/security.txt
+google.com,Found,https://www.google.com/.well-known/security.txt
+facebook.com,Found,https://www.facebook.com/.well-known/security.txt
+mcdonalds.com,Not found
