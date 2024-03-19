@@ -44,12 +44,12 @@ def check_for_security_txt(file, verbose, directory):
                 if response.status_code == 200:
                     # Print if verbose is enabled in script options
                     print(f'Found at {url}') if verbose else None
-                    results.append((domain, 'Found', url)
-                                   ) if not found_or_errored else None
+                    results.append((domain, 'Found', url))
                     found_or_errored = True
                     found_counter += 1
                     # Increment the count for this path
                     path_counter[path] += 1
+                    break  # TODO check all Paths
                 else:
                     print(f'Nothing found at {url}') if verbose else None
             # Catch any exceptions that might occur when checking the URL
