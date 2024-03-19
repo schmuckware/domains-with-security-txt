@@ -20,7 +20,7 @@ To generate your own results install and run the `scan.py` script with the `-f` 
 Example:
 
 ```bash
-python scan.py -f domains.csv -d results
+python scan.py -f domains.csv -d COM
 ```
 
 ```bash
